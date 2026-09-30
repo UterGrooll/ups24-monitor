@@ -97,6 +97,10 @@ C2:1
 
 ## Схема, плата и корпус
 
+[![Принципиальная схема контроллера](docs/images/shematic.png)](docs/images/shematic.png)
+
+Нажмите на схему, чтобы открыть изображение в полном размере.
+
 - [Проект KiCad](schematic/KP_24V/KP_24V.kicad_pro)
 - [Принципиальная схема](schematic/KP_24V/KP_24V.kicad_sch)
 - [Печатная плата](schematic/KP_24V/KP_24V.kicad_pcb)
