@@ -1,0 +1,39 @@
+# Local CAD history and backups
+**/.history/
+**/*-backups/
+.local-backups/
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.lck
+~*
+*.FCBak
+*.FCStd1
+*.bak
+
+# Old generated snapshots: regenerate from current KiCad sources when needed
+schematic/KP_24V/KP_24V.net
+schematic/KP_24V/KP_24V_BOM.csv
+schematic/KP_24V/KP_24V_erc.json
+schematic/KP_24V/KP_24V_schematic.pdf
+
+# Private project documents are not part of the public repository
+**/Подключение/
+*.doc
+*.docx
+*.docm
+~$*
+
+# Build and editor output
+build/
+dist/
+*.hex
+*.elf
+*.o
+*.log
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+

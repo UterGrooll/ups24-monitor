@@ -1,0 +1,172 @@
+(footprint "LM2596S_Module_43x21_P40x17"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LM2596S step-down module, body 43 x 21 mm, terminal centers 40 x 17 mm; measured by user")
+	(tags "LM2596S DC-DC module THT hand etched")
+	(property "Reference" "REF**"
+		(at 20 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "37321668-a7f1-412f-89ff-92d4974a7252")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LM2596S_Module_43x21_P40x17"
+		(at 20 20.5 0)
+		(layer "F.Fab")
+		(uuid "55978e26-1af9-48b6-843f-793314027338")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 20 8.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d88a205c-235f-4ea1-a133-926fdcb4802f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LM2596S module 43 x 21 mm, pads: 1 IN+, 2 IN-, 3 OUT+, 4 OUT-"
+		(at 20 8.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "773fdabd-f9c2-41b6-b522-f8bf74f34aaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.5 -2)
+		(end 41.5 19)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f3abf837-eadb-4a29-bf0e-591515c07ecb")
+	)
+	(fp_rect
+		(start -1.5 -2)
+		(end 41.5 19)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1f8a0077-c5fe-415c-88a2-39e57588256a")
+	)
+	(fp_rect
+		(start -1.75 -2.25)
+		(end 41.75 19.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d89143d2-1843-4398-a4fc-464b69a160cb")
+	)
+	(fp_text user "IN+"
+		(at 3 0 0)
+		(layer "F.SilkS")
+		(uuid "b9109296-3fb5-4b46-8379-97d7e548905e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at 3 17 0)
+		(layer "F.SilkS")
+		(uuid "80983e00-484e-487f-9a3c-9e184387ba60")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 36.5 0 0)
+		(layer "F.SilkS")
+		(uuid "a28bc2d6-b05b-4fd7-bed9-75dae054f9d4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 36.5 17 0)
+		(layer "F.SilkS")
+		(uuid "bb6b7b21-1dae-4680-8ebf-f59d30234148")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 20 8.5 0)
+		(layer "F.Fab")
+		(uuid "a3f3f2d9-5c59-4c35-8b6d-c8139beec370")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.6 2.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "504e58bd-a03d-416b-a88f-6e55cbad3227")
+	)
+	(pad "2" thru_hole circle
+		(at 0 17)
+		(size 2.6 2.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "71fdcd18-1639-4acf-8349-228eca67bb7b")
+	)
+	(pad "3" thru_hole circle
+		(at 40 0)
+		(size 2.6 2.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4b378e95-d030-4f43-8e6d-c0516ff52882")
+	)
+	(pad "4" thru_hole circle
+		(at 40 17)
+		(size 2.6 2.6)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "34efaf24-fec6-49a9-aea5-de008a0a87ad")
+	)
+	(embedded_fonts no)
+)
